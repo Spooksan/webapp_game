@@ -19,3 +19,23 @@ Start of with a simple 6 color rgb set.
 The objective is that, everytime the page loads, it picks 6 random color and then it assigns each one a color to one of the divs.
 First we introduce the code without the randomised part.
 We add eventlistner click and use a if-else logic to see if the pickedColor = colorDisplay.
+
+
+
+Part 2
+Changing the behaviour when we click the right and wrong answer
+
+HTML
+we created a seperate div with id message 
+
+CSS
+we just made all the lines in span turn white.
+
+JS
+var pickedColor is changed to pcikColor and then we just define it with function
+we call the id message using Query selector and then assigns a JS var called messageDisplay.
+if-else logic to print correct and try again features.
+changeColors(color), this feature makes all the suqres turn the same color f the clickedColor is the right choice.
+pickColor is randomised with math.random --> which selects a value btw 0-1
+math.random * color.length --> 0-1 * lenghth of color array. [0-5]
+math.floor to round off and make it a whole number.
