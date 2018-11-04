@@ -39,3 +39,14 @@ changeColors(color), this feature makes all the suqres turn the same color f the
 pickColor is randomised with math.random --> which selects a value btw 0-1
 math.random * color.length --> 0-1 * lenghth of color array. [0-5]
 math.floor to round off and make it a whole number.
+
+
+Part 3
+
+JS
+generating 6 random colors to fill the array and also changing heading background to match if pickedColor = clickedColor
+Remove colors variable and set it to a new function called generateRandomColors with an argument to take in 6 or 3 numbers.
+create a function to push the random colors into the array
+create another function randomColor to generate rgb colors and use return feature to create "rgb(255, 255, 255)"
+setting h1 to match pickedColor
+
