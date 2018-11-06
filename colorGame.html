@@ -6,7 +6,31 @@
 </head>
 <body>
 <h1>The Great <span id="colorDisplay">RGB</span> Color Game</h1>
-	
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>RGB Game</title>
+	<link rel="stylesheet" type="text/css" href="colorGame.css">
+</head>
+<body>
+<h1>The Great <span id="colorDisplay">RGB</span> Color Game</h1>
+<!-- we are using division to separate square and use a class called squares -->
+<div id="stripe">
+<button id="reset">New Colors</button>	
+<span id="message">	</span>
+</div>
+<div id="container">
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+	<div class="square"></div>
+</div>
+<!-- When we open html we wont see anything because there is no width, margin or color to distinguish the individual tiles -->
+<script type="text/Javascript" src="colorGame.js"></script>
+</body>
+</html>
 <div> 
         <span id="message"></span>
 </div>	
