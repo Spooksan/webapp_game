@@ -50,3 +50,17 @@ create a function to push the random colors into the array
 create another function randomColor to generate rgb colors and use return feature to create "rgb(255, 255, 255)"
 setting h1 to match pickedColor
 
+Part 4
+Adding New colors button and functionality
+
+html
+adding a new button inside div with id stripe.
+
+CSS
+the button is entered with CSS
+we are removing span
+
+JS
+we make a reset button by calling it from html using querySelector
+adding event listner "click" and then adding logic to it using a function. 
+changes are made to even change the textcontent to display "Play Again?" as a rest button.
