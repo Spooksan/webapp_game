@@ -64,3 +64,9 @@ JS
 we make a reset button by calling it from html using querySelector
 adding event listner "click" and then adding logic to it using a function. 
 changes are made to even change the textcontent to display "Play Again?" as a rest button.
+
+
+part 5
+Adding Easy and hard mode
+Finishing touches on CSS
+
