@@ -1,51 +1,80 @@
 body{
 	background-color: #232323;
+	margin: 0;
+	font-family: "Avenir" "Montserrat";
+
 }
 .square{
 	width:30%; /*Each box is designed to take up 30% of the container*/
 	background: purple;
 	padding-bottom: 30%; /*if we dont add padding we wont be able to see anything*/
 	float: left;/*All will be on a single line. float is used to make all the squares line up next to one and another*/
-	margin:1.66%;/*the marin of 1.66% along with the 30% for each squre would giev a total of 100%*/
-}body{
-	background-color: #232323;
-}
-.square{
-	width:30%; /*Each box is designed to take up 30% of the container*/
-	background: purple;
-	padding-bottom: 30%; /*if we dont add padding we wont be able to see anything*/
-	float: left;/*All will be on a single line. float is used to make all the squares line up next to one and another*/
+	border-radius: 15%;
+	transition: background 0.6s;
 	margin:1.66%;/*the marin of 1.66% along with the 30% for each squre would giev a total of 100%*/
 }
  /*we use the css to create a similar responsive grid that we showcased earlier in photogrid*/
 
 #container {
-	margin: 0 auto; /*to centre the boxes, 0 margin is given on both top and bottom and auto feature is used to make the site look responsive and centred.*/
+	margin: 20px auto; /*to centre the boxes, 0 margin is given on both top and bottom and auto feature is used to make the site look responsive and centred.*/
 	max-width:600px;
 }
 h1{
+	text-align: center;	
+	line-height : 1.1;
 	color:white;
+	background: 	steelblue;
+	margin: 0; 
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 20px 0;
+
 }
 
 /*span{
 	color:white;
 }*/
 
+#colorDispaly{
+font-size: 200%;
+
+}
 #stripe{
 	background:white;
 	height:30px;
 	text-align: center;
 	color: black;
-}
- /*we use the css to create a similar responsive grid that we showcased earlier in photogrid*/
 
-#container {
-	margin: 0 auto; /*to centre the boxes, 0 margin is given on both top and bottom and auto feature is used to make the site look responsive and centred.*/
-	max-width:600px;
 }
-h1{
+
+.selected{
 	color:white;
+	background : steelblue;
 }
-span{
-	color:white; /*changing the color of lines to white */
+
+button{
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight:700;
+	color: steelblue;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none;
+
+}
+
+#message{
+	display:inline-block;
+	width:20%;
+	text-transform: uppercase;
+	font-weight:700;
+	color: steelblue;
+	font-size: inherit;
+}
+
+button:hover{
+	color:white;
+	background:steelblue;
 }
